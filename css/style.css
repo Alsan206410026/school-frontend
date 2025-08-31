@@ -3,9 +3,11 @@
     margin: 0px;
 }
 
+
 body,html{
     font-family: roboto, sans-serif;
     background-color: #f0f3fa;
+    scroll-behavior: smooth;
 }
 
 .width-100{
@@ -25,14 +27,14 @@ margin: 0 auto;
 }
 
 .news-list{
-        background: #fff;
+    background: #fff;
     color: red;
     padding: 6px;
     font-size: 20px;
 }
 
 .headquote{
-font-size: 18px;
+    font-size: 18px;
     color: white;
     width: 80%;
 }
@@ -44,25 +46,218 @@ font-size: 18px;
 }
 
 .logo{
-     width: fit-content;
+    width: fit-content;
     float: left;
 }
 
 .main-menu {
+    display: flex;
     list-style: none;
     float: right;
-    margin-top: 20px;
+    margin-top: 40px;
+    
 }
 
 .main-menu a {
-     font-weight: 500;
+    font-weight: 500;
     color:#3a3a3a;
     font-size: 20px;
     text-decoration: none;
-   
 }
 .main-menu li {
-       float: left;
     padding: 12px 15px;
 }
+.slider-width {
+    width: 100%;
+    height: auto;
+}
+.margin-top-50 {
+    margin-top: 50px;
+}
+.width-33 {
+    width: 33.33%;
+    float: left;
+}
+
+.latest-news {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.heading-sec {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #cfcfcf;
+    margin: 0px;
+    margin-bottom: 15px;
+    padding-top: 2px;
+    border: 1px solid #cfcfcf;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    background: #00aed9;
+    color: white;
+   
+}
+.head-title {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 0px;
+}
+.latest-news-ul {
+    padding: 0px;
+    list-style: none;
+    line-height: 50px;
+}
+
+.event-list{
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+
+}
+
+.upcoming-event-list {
+    padding: 0px;
+    list-style: none;
+   
+}
+.upcoming-event-list li{
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.event-date{
+    background: #03a9f4;
+    width: 30px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.notice-board-list {
+    padding: 0px;
+    list-style: none;
+
+}
+.notice-board-list li {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.notice-board{
+     margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+
+}
+
+.our-services{
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 670px;
+    margin-bottom: 30px;
+
+}
+
+.our-services-list{
+    padding: 0px;
+    list-style: none;
+    line-height: 32px;
+}
+.our-services-list li{
+    list-style: none;
+      width: 100%;
+    float: left;
+    border-bottom: 1px solid #d7d7d7;
+}
+.school-chef{
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 670px;
+    margin-bottom: 30px;
+}
+
+.director{
+    margin-bottom: 50px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 50px;
+}
+
+.principal{
+     margin-bottom: 50px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 50px;
+}
+
+
+.width-40{
+    width: 40%;
+    float: left;
+}
+.width-60{
+    width: 55%;
+    float: right;
+
+}
+
+.director-img{
+    width: 100%;
+    height: auto;
+    box-shadow: 3px 3px 7px 1px;
+   
+}
+.Principal-img{
+    width: 100%;
+    height: auto;
+    box-shadow: 3px 3px 7px 1px;
+   
+}
+.Vice-Principal-img{
+    width: 100%;
+    height: auto;
+    box-shadow: 3px 3px 7px 1px;
+   
+}
+.director-info{
+        margin-top: 43px;
+    
+}
+.principal-info{
+    margin-top: 30px;
+}
+.vice-principal-info{
+    margin-top: 25px;
+}
+
+.school-awards{
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 670px;
+    margin-bottom: 30px;
+}
+
 
