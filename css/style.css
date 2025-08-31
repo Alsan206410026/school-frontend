@@ -62,10 +62,7 @@ font-size: 18px;
    
 }
 .main-menu li {
-   
-  
+       float: left;
+    padding: 12px 15px;
 }
 
-.header-menu .main-menu li a:hover {
-  
-}
