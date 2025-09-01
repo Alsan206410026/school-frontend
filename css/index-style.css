@@ -14,6 +14,9 @@ body,html{
 width: 100%;
 float: left;  
 }
+.width-100-color{
+    background: #f0f3fa;
+}
 
 .container{
 width: 1500px;
@@ -66,6 +69,28 @@ margin: 0 auto;
 .main-menu li {
     padding: 12px 15px;
 }
+
+.about-drop {
+    margin-right: 29%;
+    margin-top: 13px;
+    display: none;
+    position: absolute;
+    background: rgb(215, 215, 215);
+    box-shadow: 3px 3px 3px 1px;
+    z-index: 999;
+    right: 95px;
+}
+
+.about-drop li {
+    list-style: none;
+    padding: 10px 15px;
+}
+
+
+.main-menu li:hover .about-drop {
+    display: block;
+}
+
 .slider-width {
     width: 100%;
     height: auto;
@@ -330,3 +355,153 @@ margin: 0 auto;
     height: 300px;
     margin-bottom: 30px;
 }
+
+.footer{
+    background: #232f3e;
+    padding: 50px 0px
+}
+
+.width-25{
+    width: 25%;
+    float: left;
+}
+
+.quicklink-heading{
+        font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+.quicklink-menu{
+    list-style:none;
+    padding-left: 10px;
+}
+
+.quicklink-menu li a{
+    color: white;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+.width-25{
+    width: 25%;
+    float: left;
+}
+
+.quicklink-heading{
+        font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+.quicklink-menu{
+    list-style:none;
+    padding-left: 10px;
+}
+
+.quicklink-menu li a{
+    color: white;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+.student-section-heading{
+        font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+.student-section-menu{
+    list-style:none;
+    padding-left: 10px;
+}
+
+.student-section-menu li a{
+    color: white;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+
+.information-heading{
+        font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+.information-menu{
+    list-style:none;
+    padding-left: 10px;
+}
+
+.information-menu li a{
+    color: white;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+
+.get-in-touch-heading{
+        font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+.get-in-touch{
+    list-style:none;
+    padding-left: 10px;
+}
+
+
+.get-in-touch li {
+    color: #fff;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.get-in-touch li i {
+    color: #ed372c;
+    font-size: 20px;
+}
+
+.get-in-touch li a {
+    color: #fff;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.social-media {
+    list-style: none;
+    margin-top: 10px;
+}
+.social-media li {
+    float: left;
+    padding: 0px 8px;
+}
+
+.social-media li a img {
+    width: 30px;
+}
+
+.footer2-last{
+  background: #232f3e;
+    padding: 10px 0px;
+    border-top: 1px solid #898989;
+}
+
+.footer2-content{
+font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
