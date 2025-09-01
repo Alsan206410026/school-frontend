@@ -190,7 +190,7 @@ margin: 0 auto;
     border-bottom: 1px solid #d7d7d7;
 }
 
-.school-chef{
+ .school-chef{
     margin-left: 10px;
     margin-right: 10px;
     background: #fff;
@@ -250,4 +250,83 @@ margin: 0 auto;
     height: auto;
     box-shadow: 3px 3px 7px 1px;
     margin-bottom: 10px;
+}
+.founders{
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 260px;
+    margin-bottom: 30px;
+}
+
+.width-13{
+    width: 14%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    display: inline-block;
+    text-align: center;
+}
+.founders-marquee img{
+    height: 186px;
+    width: auto;
+    display: block;
+    margin: 0 auto 8px;
+    box-shadow: 3px 3px 3px 1px;
+}
+
+.founders-info{
+    margin-top: 2px;
+    font-weight: 600;
+    color: #3a3a3a;
+    text-align: center;
+
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.teaching-staff{
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 1450px;
+    margin-bottom: 30px;
+}
+
+.width-15{
+    width: 15%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 3%;
+    display: inline-block;
+}
+
+.staff-img img{
+    height: 186px;
+    width: auto;
+    display: block;
+    margin: 0 auto 8px;
+    box-shadow: 3px 3px 3px 1px;
+}
+
+.staffs-info{
+    float: left;
+    text-align: center;
+    margin-top: 9px;
+    font-weight: 600;
+    color: #3a3a3a;
+    
+}
+
+
+.non-teaching-staff{
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 300px;
+    margin-bottom: 30px;
 }
