@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body,html{
+    font-family: roboto, sans-serif;
+    background-color: #f0f3fa;
+    scroll-behavior: smooth;
+}
+
+.width-100{
+width: 100%;
+float: left;  
+}
+.width-100-color{
+    background: #f0f3fa;
+}
+
+.container{
+width: 1500px;
+margin: 0 auto;
+}
+
+.top-header{
+    background-color: #2196f3;
+    padding: 5px 0px;
+    border-bottom: 1px solid #3131315e; 
+}
+
+.news-list{
+    background: #fff;
+    color: red;
+    padding: 6px;
+    font-size: 20px;
+}
+
+.headquote{
+    font-size: 18px;
+    color: white;
+    width: 80%;
+}
+
+.header-menu {
+    position: relative;
+    box-shadow: 0px 2px 5px 0px #00000036;
+
+}
+
+.logo{
+    width: fit-content;
+    float: left;
+}
+
+.main-menu {
+    display: flex;
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+}
+
+.main-menu a {
+    font-weight: 500;
+    color:#3a3a3a;
+    font-size: 20px;
+    text-decoration: none;
+}
+.main-menu li {
+    padding: 12px 15px;
+}
+
+.about-drop {
+    margin-right: 29%;
+    margin-top: 13px;
+    display: none;
+    position: absolute;
+    background: rgb(215, 215, 215);
+    box-shadow: 3px 3px 3px 1px;
+    z-index: 999;
+    right: 95px;
+}
+
+.about-drop li {
+    list-style: none;
+    padding: 10px 15px;
+}
+
+
+.main-menu li:hover .about-drop {
+    display: block;
+}
