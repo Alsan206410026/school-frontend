@@ -514,14 +514,14 @@ font-size: 14px;
 
 
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 1025px) {
     .container{
         width: 100%;
         margin: 0 auto;
     }
 
 .headquote{
- width: 78%;
+ width: 77%;
 }
 
 .menu-toggle{
@@ -996,4 +996,11 @@ font-size: 14px;
 }
 
 
+}
+
+
+@media screen and (max-width: 420px) {
+    .headquote {
+        width: 49%;
+    }
 }
