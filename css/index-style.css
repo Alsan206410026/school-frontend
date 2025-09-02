@@ -599,11 +599,11 @@ font-size: 14px;
     }
 
 .event-list{
-    height: 390px;
+    height: 390px !important;
 }
    
 .notice-board{
-    height: 390px;
+    height: 390px !important;
 }
 
 
