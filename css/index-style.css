@@ -539,7 +539,7 @@ font-size: 14px;
     position: fixed;
     top: 11%;
     right: 0;
-    width: 70vw;
+    width: 46vw;
     max-width: 350px;
     height: auto;
     min-height: 29vh;
@@ -555,12 +555,6 @@ font-size: 14px;
     display: block;
 }
 
-.main-menu a {
-    
-}
-.main-menu li {
-   
-}
 /* Disable hover open for about-drop on mobile, only JS toggles it */
     .main-menu li:hover .about-drop {
      display: none !important;
@@ -577,7 +571,7 @@ font-size: 14px;
         display: block !important;
     }
 
-}
+
 
 
 .about-drop li {

@@ -90,3 +90,77 @@ margin: 0 auto;
 .main-menu li:hover .about-drop {
     display: block;
 }
+
+
+
+
+
+@media screen and (max-width: 920px) {
+  
+.container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+.headquote{
+ width: 78%;
+}
+
+.menu-toggle{
+    display: block;
+        cursor: pointer;
+        float: right;
+        font-size: 37px;
+        margin-top: 22px;
+        margin-right: 22px;
+}
+
+
+.main-menu {
+    display: none;
+    position: fixed;
+    top: 11%;
+    right: 0;
+    width: 70vw;
+    max-width: 350px;
+    height: auto;
+    min-height: 29vh;
+    background: rgb(215, 215, 215);
+    box-shadow: -3px 3px 3px 1px;
+    z-index: 9998;
+    transition: opacity 0.3s, height 0.3s;
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+
+.main-menu.active {
+    display: block;
+}
+
+
+/* Disable hover open for about-drop on mobile, only JS toggles it */
+    .main-menu li:hover .about-drop {
+     display: none !important;
+    margin: 0;
+    margin-top: 10px;
+    position: static;
+    box-shadow: none;
+    z-index: 999;
+    width: 100%;
+    padding-left: 10px;
+    }
+
+    .main-menu li .about-drop.active{
+        display: block !important;
+    }
+
+
+
+
+.about-drop li {
+    list-style: none;
+    padding: 10px 15px;
+}
+
+
+}
