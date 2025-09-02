@@ -795,3 +795,21 @@ font-size: 14px;
 
 
 }
+
+
+@media screen and (max-width: 250px) {
+
+
+    .width-60{
+        margin-top: 10px;
+    }
+
+    .notice-board{
+    height: 370px;
+}
+
+
+.school-chef{
+        height: 370px;
+    }
+}
