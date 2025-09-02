@@ -588,12 +588,23 @@ font-size: 14px;
 .margin-top-50 {
     margin-top: 50px;
 }
+
+
+
+
+
  .width-33 {
         width: 100%;
         float: left;
     }
 
-
+.event-list{
+    height: 380px;
+}
+   
+.notice-board{
+    height: 380px;
+}
 
 
 .school-chef{
@@ -601,9 +612,16 @@ font-size: 14px;
     }
 
 
+
+.width-60{
+    margin-top: 15px;
+}
+
 .school-awards{
     height: 1102px;
 }
+
+
 
 .awards{
    width: 90%;
