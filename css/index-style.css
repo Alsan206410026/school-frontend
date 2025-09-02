@@ -33,6 +33,7 @@ margin: 0 auto;
     background: #fff;
     color: red;
     padding: 6px;
+    float: left;
     font-size: 20px;
 }
 
