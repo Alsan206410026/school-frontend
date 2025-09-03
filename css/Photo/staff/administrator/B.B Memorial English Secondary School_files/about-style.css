@@ -136,8 +136,6 @@ margin: 0 auto;
 .margin-top-50 {
     margin-top: 50px;
 }
-
-
 .width-33 {
     width: 33.33%;
     float: left;
@@ -155,7 +153,6 @@ margin: 0 auto;
 
 .heading-sec {
     width: 100%;
-    box-sizing: border-box;
     float: left;
     border-bottom: 1px solid #cfcfcf;
     margin: 0px;
@@ -195,175 +192,10 @@ margin: 0 auto;
 }
 
 .logo-sec img {
-  height: 439px;
-    width: auto;
-    position: relative;
-    top: 63px;
-    left: 2%;
-     box-shadow: 3px 3px 3px 1px;
+   height: 100px;
+   width: auto;
+   position: relative;
 }
-
-
-.third-part {
-    margin-left: 10px;
-    margin-right: 10px;
-    background: #fff;
-    padding: 20px;
-    height: 540px;
-    margin-bottom: 30px;
-}
-
-.background-img{
-  padding: 90px 60px 40px 60px;
-    opacity: 100%;
-    background-image: url(Photo/school/about-us-2.png);
-    background-size: cover;
-    background-position: center center;
-    height: 533px;
-    transform: translate(0px, -6.21px);
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    
-}
-
-
-
-.content-font-overlay{
-    font-size: 21px;
-    color: rgb(240, 240, 240);
-}
-
-.background-color {
-    background: #fff;
-    height: 1300px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.width-50 {
-    width: 50%;
-    float: left;
-}
-
-.goal-image {
-    width: 30%;
-    height: auto;
-}
-
-.title-goal{
-     font-size: 47px;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-left: 25px;
-    color: rgb(0, 123, 10);
-}
-
-.goal-list{
-     margin-top: 33px;
-    float: left;
-    font-size: 16px;
-    line-height: 1.8;
-    margin-left: 112px;
-}
-
-.width-100-goals {
-    width: 100%;
-    height: auto;
-    float: left;
-        margin-bottom: 20px;
-}
-
-
-
-.achivements-image {
-    width: 30%;
-    height: auto;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-.title-achivements{
-     font-size: 47px;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-left: 25px;
-    color: rgb(0, 123, 10);
-}
-
-.achivements-list{
-     margin-top: 33px;
-    float: left;
-    font-size: 16px;
-    line-height: 1.8;
-    margin-left: 112px;
-}
-
-.width-100-achivements {
-    width: 100%;
-    height: auto;
-    float: left;
-}
-
-
-
-.background-color-no {
-    background: #fff;
-    height: 376px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.awards-image {
-    width: 17%;
-    height: auto;
-   
-}
-
-.title-awards{
-    font-size: 47px;
-    font-weight: bold;
-    margin-top: -88px;
-    margin-left: 160px;
-    color: rgb(0, 123, 10);
-}
-
-.awards-list{
-     margin-top: 33px;
-    float: left;
-    font-size: 16px;
-    line-height: 1.8;
-    margin-left: 112px;
-}
-
-.width-100-awards {
-    width: 100%;
-    height: auto;
-    float: left;
-    margin-bottom: 20px;
-}
-
-.margin-top{
-    margin-top: -80px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -595,104 +427,12 @@ font-size: 14px;
 /* main content css */
     
 
-.width-33 {
-    width: 100%;
-}
-
-.first-part {
-    height: 377px;  
-}
-
-
-
-.second-part {
-height: 516px;
-}
-
-.logo-sec img {
-        top: 16px;
-        left: 18%;
-}
-
-
-.third-part {
-    height: 355px;   
-}
-
-
-.width-50 {
-    width: 100%;
-    
-}
-
-.background-img {
-        padding: 10px 11px 10px 11px;
-        height: 677px;
+ .width-33 {
+        width: 100%;
+        float: left;
     }
 
-.content-font-overlay{
-    font-size: 18px;
-   
-}
 
-.background-color {
-   
-    height: 1255px;
-    
-}
-
-
-.width-100-goals {
-   display: none;
-}
-
-
-.achivements-image {
-
-    margin-top: 60px;
-}
-
-.width-100-achivements {
-   display: none;
-}
-
-
-.width-100-awards {
-   display: none;
-}
-
-.awards-image {
-    width: 30%;
-    height: auto;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-.title-awards{
-     font-size: 47px;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-left: 25px;
-    color: rgb(0, 123, 10);
-}
-
-.awards-list{
-     margin-top: 33px;
-    float: left;
-    font-size: 16px;
-    line-height: 1.8;
-    margin-left: 112px;
-}
-
-.width-100-awards {
-    width: 100%;
-    height: auto;
-    float: left;
-}
-
-.background-color-no{
-height: 495px;
-}
 
 
 
@@ -742,130 +482,12 @@ height: 495px;
     margin-top: 20px;
     }
 
-    .content-sec {
-    
-    line-height: 1.5;
+    .width-33 {
+    width: 100%;
+    float: left;
+    margin-left: 40px;
+    margin-top: 14px;
 }
-
-
-.first-part {
-    height: 630px;  
-}
-
-
-
-.second-part {
-height: 330px;
-}
-
-.logo-sec img {
-        height: 374px;
-        width: auto;
-        top: -26px;
-        left: -7%;
-}
-
-
-.third-part {
-    height: 540px;
-}
-
-.background-img {
-        padding: 10px 11px 10px 11px;
-        height: 900px;
-    }
-
-.content-font-overlay{
-    font-size: 16px;
-   
-}
-
-
-
-
-
-
-
-.background-color {
-   
-    height: 1160px;
-    
-}
-
-
-
-
-.goal-image {
-    width: 28%;
-    height: auto;
-}
-
-.title-goal{
-  font-size: 32px;
-        margin-top: -70px;
-        margin-left: 129px;
-        margin-bottom: 68px;
-}
-
-.goal-list{
-       margin-top: 8px;
-        float: left;
-        font-size: 13px;
-        line-height: 1.7;
-        margin-left: 22px;
-}
-
-
-.achievements-image {
-    width: 28%;
-    height: auto;
-}
-
-.title-achivements{
-      font-size: 32px;
-        margin-top: -70px;
-        margin-left: 129px;
-        margin-bottom: 68px;
-}
-
-.achivements-list{
-       margin-top: 8px;
-        float: left;
-        font-size: 13px;
-        line-height: 1.7;
-        margin-left: 22px;
-}
-
-.background-color-no{
-height: 390px;
-}
-
-
-
-
-
-.awards-image {
-    width: 28%;
-    height: auto;
-}
-
-.title-awards{
-   font-size: 32px;
-        margin-top: -70px;
-        margin-left: 129px;
-        margin-bottom: 68px;
-}
-
-.awards-list{
-       margin-top: 8px;
-        float: left;
-        font-size: 13px;
-        line-height: 1.7;
-        margin-left: 22px;
-}
-
-
-
 
 
 
