@@ -136,8 +136,6 @@ margin: 0 auto;
 .margin-top-50 {
     margin-top: 50px;
 }
-
-
 .width-33 {
     width: 33.33%;
     float: left;
@@ -194,22 +192,9 @@ margin: 0 auto;
 }
 
 .logo-sec img {
-  height: 439px;
-    width: auto;
-    position: relative;
-    top: 63px;
-    left: 2%;
-     box-shadow: 3px 3px 3px 1px;
-}
-
-
-.third-part {
-    margin-left: 10px;
-    margin-right: 10px;
-    background: #fff;
-    padding: 20px;
-    height: 540px;
-    margin-bottom: 30px;
+   height: 100px;
+   width: auto;
+   position: relative;
 }
 
 
@@ -442,30 +427,10 @@ font-size: 14px;
 /* main content css */
     
 
-.width-33 {
-    width: 100%;
-}
-
-.first-part {
-    height: 377px;  
-}
-
-
-
-.second-part {
-height: 516px;
-}
-
-.logo-sec img {
-        top: 16px;
-        left: 18%;
-}
-
-
-.third-part {
-    height: 355px;   
-}
-
+ .width-33 {
+        width: 100%;
+        float: left;
+    }
 
 
 
@@ -517,32 +482,11 @@ height: 516px;
     margin-top: 20px;
     }
 
-    .content-sec {
-    
-    line-height: 1.5;
-}
-
-
-.first-part {
-    height: 630px;  
-}
-
-
-
-.second-part {
-height: 330px;
-}
-
-.logo-sec img {
-        height: 374px;
-        width: auto;
-        top: -26px;
-        left: -7%;
-}
-
-
-.third-part {
-    height: 540px;
+    .width-33 {
+    width: 100%;
+    float: left;
+    margin-left: 40px;
+    margin-top: 14px;
 }
 
 
