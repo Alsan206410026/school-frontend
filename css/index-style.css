@@ -167,6 +167,15 @@ margin: 0 auto;
     line-height: 50px;
 }
 
+.main-menu .about-drop a:hover::after {
+  display: none !important;
+  content: none !important;
+}
+
+.about-us-height {
+    height: 109px;
+    }
+
 .event-list{
     margin-left: 10px;
     margin-right: 10px;
@@ -590,6 +599,10 @@ font-size: 14px;
 
     .main-menu li .about-drop.active{
         display: block !important;
+    }
+
+    .about-us-height {
+   display: none;
     }
 
 
