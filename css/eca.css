@@ -68,24 +68,45 @@ margin: 0 auto;
 }
 
 .main-menu a {
+    position: relative;
+    display: inline-block;
     font-weight: 500;
     color:#3a3a3a;
     font-size: 20px;
     text-decoration: none;
 }
+.main-menu a::after {
+     content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -72px;
+    height: 6px;
+    width: 0;
+    background-color: rgb(24, 0, 86);
+    transition: width 0.4s ease-in-out;
+    z-index: 99999999;
+}
+
+.main-menu a:hover::after {
+  width: 100%;
+}
+
 .main-menu li {
     padding: 12px 15px;
 }
 
 .about-drop {
     margin-right: 29%;
-    margin-top: 13px;
+    margin-top: 74px;
     display: none;
     position: absolute;
     background: rgb(215, 215, 215);
     box-shadow: 3px 3px 3px 1px;
     z-index: 999;
     right: 95px;
+    right: 95px;
+
 }
 
 .about-drop li {
@@ -315,7 +336,9 @@ font-size: 14px;
     }
 
 
-
+.main-menu a:hover::after {
+ display: none;
+}
 
 .about-drop li {
     list-style: none;
