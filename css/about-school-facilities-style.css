@@ -97,10 +97,13 @@ margin: 0 auto;
   content: none !important;
 }
 
-
 .main-menu li {
     padding: 12px 15px;
 }
+
+.about-us-height {
+    height: 109px;
+    }
 
 .about-drop {
     margin-right: 29%;
@@ -345,6 +348,10 @@ font-size: 14px;
 .main-menu a:hover::after {
  display: none;
 }
+
+.about-us-height {
+   display: none;
+    }
 
 .about-drop li {
     list-style: none;
