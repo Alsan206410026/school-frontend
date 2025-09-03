@@ -19,7 +19,7 @@ float: left;
 }
 
 .container{
-width: 1500px;
+width: 100%;
 margin: 0 auto;
 }
 
@@ -33,6 +33,7 @@ margin: 0 auto;
     background: #fff;
     color: red;
     padding: 6px;
+    float: left;
     font-size: 20px;
 }
 
@@ -52,6 +53,12 @@ margin: 0 auto;
     width: fit-content;
     float: left;
 }
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
 
 .main-menu {
     display: flex;
@@ -92,15 +99,172 @@ margin: 0 auto;
 }
 
 
+
+
+
+
+
+
+.footer{
+    background: #232f3e;
+    padding: 50px 0px
+}
+
+.width-25{
+    width: 25%;
+    float: left;
+}
+
+.quicklink-heading{
+        font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+.quicklink-menu{
+    list-style:none;
+    padding-left: 10px;
+}
+
+.quicklink-menu li a{
+    color: white;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+.width-25{
+    width: 25%;
+    float: left;
+}
+
+.quicklink-heading{
+        font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+.quicklink-menu{
+    list-style:none;
+    padding-left: 10px;
+}
+
+.quicklink-menu li a{
+    color: white;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+.student-section-heading{
+        font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+.student-section-menu{
+    list-style:none;
+    padding-left: 10px;
+}
+
+.student-section-menu li a{
+    color: white;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+
+.information-heading{
+        font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+.information-menu{
+    list-style:none;
+    padding-left: 10px;
+}
+
+.information-menu li a{
+    color: white;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+
+.get-in-touch-heading{
+        font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+.get-in-touch{
+    list-style:none;
+    padding-left: 10px;
+}
+
+
+.get-in-touch li {
+    color: #fff;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.get-in-touch li i {
+    color: #ed372c;
+    font-size: 20px;
+}
+
+.get-in-touch li a {
+    color: #fff;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.social-media {
+    list-style: none;
+    margin-top: 10px;
+}
+.social-media li {
+    float: left;
+    padding: 0px 8px;
+}
+
+.social-media li a img {
+    width: 30px;
+}
+
+.footer2-last{
+  background: #232f3e;
+    padding: 10px 0px;
+    border-top: 1px solid #898989;
+}
+
+.footer2-content{
+font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
 @media screen and (max-width: 1025px) {
-  
-.container{
+    .container{
         width: 100%;
         margin: 0 auto;
     }
 
 .headquote{
- width: 78%;
+ width: 70%;
 }
 
 .menu-toggle{
@@ -118,7 +282,7 @@ margin: 0 auto;
     position: fixed;
     top: 11%;
     right: 0;
-    width: 70vw;
+    width: 46vw;
     max-width: 350px;
     height: auto;
     min-height: 29vh;
@@ -133,7 +297,6 @@ margin: 0 auto;
 .main-menu.active {
     display: block;
 }
-
 
 /* Disable hover open for about-drop on mobile, only JS toggles it */
     .main-menu li:hover .about-drop {
@@ -158,6 +321,78 @@ margin: 0 auto;
     list-style: none;
     padding: 10px 15px;
 }
+/* main content css */
+    
+
+
+
+
+
+
+
+
+/* footer css */
+
+.width-25{
+   width: 45%;
+    float: left;
+    margin-left: 40px;
+    margin-top: 14px;
+}
+
+.width-25-down{
+    margin-top: 36px;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 420px) {
+
+    .logo img {
+        height: 77px;
+        width: auto;
+    }
+
+    .menu-toggle{
+       margin-top: 12px;
+        margin-right: 19px;
+    }
+
+    .headquote {
+        width: 45%;
+    }
+
+    .main-menu{
+        width: 70vw;
+    }
+
+    /* main content css */
+    
+
+
+
+
+
+
+
+
+/* footer css */
+
+.width-25{
+  width: 100%;
+    float: left;
+    margin-left: 40px;
+    margin-top: 26px;
+}
+
+
+}
+
+
+@media screen and (max-width: 250px) {
 
 
 }
