@@ -128,12 +128,38 @@ margin: 0 auto;
     display: block;
 }
 
+/* body */
 
 
 
 
 
 
+.sorry-section{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 5px auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.sorry-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
 
 .footer{
     background: #232f3e;
@@ -359,23 +385,6 @@ font-size: 14px;
 }
 /* main content css */
     
-
-
-
-.sorry-section{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 5px auto;
-    margin-left: 10px;
-    margin-right: 10px;
-    text-align: center;
-}
-
-.sorry-section img {
-    max-width: 100%;
-    height: auto;
-}
-
 
 
 
