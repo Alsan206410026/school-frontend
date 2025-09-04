@@ -459,7 +459,7 @@ font-size: 14px;
     margin-top: 36px;
 }
 
-
+}
 
 @media screen and (max-width: 420px) {
 
@@ -520,12 +520,6 @@ font-size: 14px;
     margin-left: 40px;
     margin-top: 26px;
 }
-
-
-}
-
-
-@media screen and (max-width: 250px) {
 
 
 }
